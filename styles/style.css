@@ -9,16 +9,16 @@ html {
 }
 
 .page {
+  display: flex;
+  align-items: center;
   margin: auto;
   padding: 0 30px;
   color: #fff;
-  font-family: "Fira Sans Condensed", sans-serif;
+  font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   background-color: #1b1919;
   inline-size: 1200px;
   block-size: 100%;
-  display: flex;
-  align-items: center;
 }
 
 h1,
@@ -62,7 +62,7 @@ input {
 .button {
   border: 1px solid #fff;
   color: inherit;
-  font-family: "Fira Sans Condensed";
+  font-family: inherit;
   font-weight: 700;
   font-size: 18px;
   background-color: transparent;
@@ -225,7 +225,7 @@ input {
 .title {
   margin-bottom: 19px;
   color: #fff;
-  font-family: "Oswald";
+  font-family: 'Oswald', sans-serif;
   font-weight: 700;
   font-size: 75px;
   font-style: normal;
@@ -244,7 +244,7 @@ input {
   padding: 0 2px;
   overflow-x: hidden;
   overflow-y: auto;
-  block-size: 298px;
+  block-size: 297px;
 }
 
 .content__list-item {
@@ -290,7 +290,7 @@ input {
 
 .content__video-card-title {
   margin-bottom: 6px;
-  font-family: "Oswald";
+  font-family: 'Oswald', sans-serif;
   font-weight: 700;
   font-size: 30px;
   line-height: 1;
